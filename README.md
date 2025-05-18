@@ -1,36 +1,94 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧠 MentalHeal
 
-## Getting Started
+MentalHeal, modern UI/UX prensiplerine göre tasarlanmış, kullanıcı dostu bir ruh sağlığı destek platformudur.
 
-First, run the development server:
+![MentalHeal Hero Görseli](path-to-your-image.png) <!-- Görseli buraya ekleyebilirsin -->
+
+## 🌐 Canlı Demo
+
+👉 [https://mentalai-alpha.vercel.app](https://mentalai-alpha.vercel.app)
+
+---
+
+## 🚀 Teknolojiler
+
+- **Next.js** – Performans odaklı, modern React framework
+- **Tailwind CSS** – Hızlı ve esnek stil oluşturma
+- **Vercel** – Kolay ve hızlı deployment ortamı
+- **Figma to Next.js** – Tasarımdan birebir dönüşüm
+- **Responsive Tasarım** – Tüm cihazlarda sorunsuz görünüm
+
+---
+
+## 🎯 Özellikler
+
+- 📱 Mobil uyumlu, responsive tasarım
+- 🎨 Modern ve sezgisel kullanıcı arayüzü
+- ⚡️ Hızlı yüklenen sayfalar ve optimize edilmiş deneyim
+- 🧩 Figma üzerinden birebir uygulanmış detaylı UI
+
+---
+
+## 🛠️ Kurulum
 
 ```bash
+git clone https://github.com/kullaniciAdi/mentalheal.git
+cd mentalheal
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+================================================================================
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# 🧠 MentalHeal
 
-## Learn More
+MentalHeal is a user-friendly mental health support platform designed with modern UI/UX principles.
 
-To learn more about Next.js, take a look at the following resources:
+![MentalHeal Hero Image](path-to-your-image.png) <!-- You can add your image here -->
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🌐 Live Demo
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+👉 [https://mentalai-alpha.vercel.app](https://mentalai-alpha.vercel.app)
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🚀 Technologies
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Next.js** – Performance-focused modern React framework
+- **Tailwind CSS** – Fast and flexible styling
+- **Vercel** – Easy and quick deployment
+- **Figma to Next.js** – Pixel-perfect design implementation
+- **Responsive Design** – Seamless experience across all devices
+
+---
+
+## 🎯 Features
+
+- 📱 Mobile-friendly, fully responsive layout
+- 🎨 Clean and intuitive user interface
+- ⚡️ Fast-loading pages and optimized performance
+- 🧩 Accurately implemented UI based on Figma design
+
+---
+
+## 🛠️ Installation
+
+```bash
+git clone https://github.com/yourUsername/mentalheal.git
+cd mentalheal
+npm install
+npm run dev
+```
+
+---
+
+## 📷 Screenshots
+![image](https://github.com/user-attachments/assets/5a4b9a9f-772b-4be1-9ce3-ec43722fb847)
+
+![image](https://github.com/user-attachments/assets/b1c87b04-6898-41fd-9b42-e15c048e1f27)
+
+![image](https://github.com/user-attachments/assets/4c739eac-1858-43dd-ab5f-aabbb44edeb2)
+
+![image](https://github.com/user-attachments/assets/7c8f4152-272c-4530-9783-cd4fb9cdf953)
+
