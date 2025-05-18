@@ -21,7 +21,7 @@ const Technology = () => {
   const [isDragging, setIsDragging] = useState(false);
   const [startX, setStartX] = useState(0);
   const [scrollLeft, setScrollLeft] = useState(0);
-  const [selectedButton, setSelectedButton] = useState("Secure AI");
+  const [selectedButton, setSelectedButton] = useState("Emotion Detection");
 
   // Fare sürükleme işlevselliği - memoized fonksiyon kullanımı
   const handleMouseDown = useCallback((e: React.MouseEvent) => {
