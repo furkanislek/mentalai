@@ -96,7 +96,7 @@ const Technology = () => {
   return (
     <section
       aria-label="Teknoloji özellikleri"
-      className="relative w-full bg-[#f2f2f2] h-full flex flex-col justify-between items-center overflow-hidden min-h-[100vh]"
+      className="relative w-full  h-full flex flex-col justify-between items-center overflow-hidden min-h-[100vh]"
     >
       <div className="flex flex-col mt-10 min-h-[15vh] justify-between items-center">
         <div>
