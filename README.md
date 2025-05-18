@@ -2,7 +2,6 @@
 
 MentalHeal, modern UI/UX prensiplerine göre tasarlanmış, kullanıcı dostu bir ruh sağlığı destek platformudur.
 
-![MentalHeal Hero Görseli](path-to-your-image.png) <!-- Görseli buraya ekleyebilirsin -->
 
 ## 🌐 Canlı Demo
 
