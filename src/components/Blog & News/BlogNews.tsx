@@ -5,7 +5,7 @@ import BlogCard from "./BlogCard";
 
 const BlogNews = () => {
   return (
-    <div className="w-full bg-[#f8f8f8] min-h-[80vh] py-16 px-[5%] text-gray-600 ">
+    <div className="w-full min-h-[80vh] py-16 px-[5%] text-gray-600 ">
       <div className="max-w-[1400px] mx-auto">
         <div className="flex justify-between items-center mb-16">
           <div className="flex items-center justify-start gap-2 ">
