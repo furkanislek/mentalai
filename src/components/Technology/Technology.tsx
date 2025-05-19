@@ -49,15 +49,20 @@ const Technology = () => {
     if (!sliderRef.current) return;
 
     const { scrollLeft, scrollWidth, clientWidth } = sliderRef.current;
+    const scrollThreshold = 10;
 
-    if (scrollLeft + clientWidth >= scrollWidth - 10) {
+    if (scrollLeft + clientWidth >= scrollWidth - scrollThreshold) {
       sliderRef.current.scrollTo({
         left: 0,
         behavior: "smooth",
       });
     }
 
-    if (scrollLeft <= 10) {
+    if (scrollLeft <= scrollThreshold) {
+      sliderRef.current.scrollTo({
+        left: scrollWidth - clientWidth,
+        behavior: "smooth",
+      });
     }
   }, []);
 
@@ -70,7 +75,6 @@ const Technology = () => {
     [isDragging]
   );
 
-  // Olay dinleyicilerini ekle/kaldır
   useEffect(() => {
     const slider = sliderRef.current;
     if (isDragging && slider) {
@@ -172,7 +176,6 @@ const Technology = () => {
   );
 };
 
-// Scroll çubuğunu gizlemek için CSS
 const styles = `
   .scrollbar-hide::-webkit-scrollbar {
     display: none;

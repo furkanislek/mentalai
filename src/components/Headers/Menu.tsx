@@ -51,7 +51,6 @@ const Menu = () => {
         </div>
       </div>
 
-      {/* Mobil menü */}
       {isMenuOpen && (
         <div className="md:hidden w-full bg-white py-4 absolute left-0 top-[60px] shadow-md z-10">
           <div className="flex flex-col px-[5%] max-w-[1400px] mx-auto">

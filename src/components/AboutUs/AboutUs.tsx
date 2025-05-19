@@ -5,7 +5,6 @@ import Image from "next/image";
 const AboutUs = () => {
   return (
     <div className=" w-full overflow-hidden">
-      {/* About Us başlık */}
       <div className="px-[5%] py-4 md:py-12 max-w-[1400px] mx-auto">
         <h3 className="flex items-center gap-2 text-[#3a4c39] font-medium">
           <p className="text-2xl">✦</p>
@@ -13,7 +12,6 @@ const AboutUs = () => {
         </h3>
       </div>
 
-      {/* Hero Section */}
       <section className="px-[5%] py-4 md:py-12 max-w-[1400px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <div className="flex gap-4 md:gap-8">
           <div className="w-full max-w-[250px]">
@@ -58,7 +56,6 @@ const AboutUs = () => {
         </div>
       </section>
 
-      {/* Our About Us Section */}
       <section className="px-[5%] py-2 md:py-16 max-w-[1400px] mx-auto">
         <h3 className="flex items-center gap-2 text-[#3a4c39] font-medium mb-6">
           <p className="text-2xl">✦</p>
@@ -115,7 +112,6 @@ const AboutUs = () => {
         </div>
       </section>
 
-      {/* Why Choose Section */}
       <section className="px-[5%] py-10 md:py-20 max-w-[1400px] mx-auto">
         <h3 className="flex items-center gap-2 text-[#3a4c39] font-medium mb-12">
           <div className="text-[#3a4c39] text-2xl ">✦</div>

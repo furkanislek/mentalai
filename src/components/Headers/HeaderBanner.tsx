@@ -6,7 +6,6 @@ import Link from "next/link";
 const HeaderBanner = () => {
   return (
     <div className="relative w-full h-full flex flex-col justify-center px-[5%] overflow-hidden">
-      {/* Arka plan görseli - sadece mobilde görünecek */}
       <div className="absolute inset-0 z-0 md:hidden">
         <Image
           src="/photos/1.jpg"
@@ -19,9 +18,7 @@ const HeaderBanner = () => {
         />
       </div>
 
-      {/* Masaüstü düzeni */}
       <div className="max-w-[1400px] mx-auto hidden md:grid md:grid-cols-3 md:gap-12 md:items-center relative">
-        {/* Sol Bölüm */}
         <div className="z-10 mb-0">
           <h1 className="text-5xl md:text-6xl font-bold mb-16 md:mb-25 tracking-tighter text-[#282828]">
             Struggling
@@ -42,7 +39,6 @@ const HeaderBanner = () => {
           </Link>
         </div>
 
-        {/* Orta Bölüm - Resim */}
         <div className="relative z-10 mx-auto w-full max-w-[350px]">
           <div className="rounded-3xl overflow-hidden">
             <Image
@@ -58,7 +54,6 @@ const HeaderBanner = () => {
           </div>
         </div>
 
-        {/* Sağ Bölüm */}
         <div className="z-10 text-right">
           <div className="mb-12">
             <h3 className="text-5xl text-[#282828]">399+</h3>
@@ -80,9 +75,7 @@ const HeaderBanner = () => {
         </div>
       </div>
 
-      {/* Mobil düzeni - Flex yapısında */}
       <div className="md:hidden flex flex-col justify-center">
-        {/* Başlık üstte */}
         <div className="text-center mb-12 z-10">
           <h1 className="text-4xl sm:text-5xl font-bold tracking-tighter text-[#282828]">
             Struggling
@@ -91,9 +84,7 @@ const HeaderBanner = () => {
           </h1>
         </div>
 
-        {/* Alt içerik */}
         <div className="w-full z-10">
-          {/* Sayaçlar yan yana */}
           <div className="flex justify-center space-x-14 mb-10 w-full">
             <div className="text-center">
               <h3 className="text-3xl sm:text-4xl text-[#282828]">399+</h3>
@@ -106,7 +97,6 @@ const HeaderBanner = () => {
             </div>
           </div>
 
-          {/* Let AI Be Your Guide */}
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl tracking-tighter text-[#282828]">
               Let AI Be
@@ -115,7 +105,6 @@ const HeaderBanner = () => {
             </h2>
           </div>
 
-          {/* Açıklama ve buton */}
           <div className="text-center mb-6">
             <p className="text-[#444444] text-sm max-w-[280px] mx-auto mb-6">
               Lorem ipsum dolor sit amet, consecur adiscing elit, sed do eiusmod
@@ -132,7 +121,6 @@ const HeaderBanner = () => {
         </div>
       </div>
 
-      {/* Arkaplan Büyük Metin */}
       <div className="hidden md:flex absolute inset-0 items-center justify-center pointer-events-none overflow-hidden">
         <h2
           className="text-[12vw] md:text-[15vw] font-bold text-[#28302B] whitespace-nowrap tracking-tighter opacity-50 transform scale-90 sm:scale-100 select-none"

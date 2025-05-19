@@ -5,15 +5,12 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <footer className=" font-[orbitron] py-4 md:py-16">
-      {/* Üst Kısım */}
       <div className="max-w-[1400px] mx-auto px-[5%] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12 md:mb-20">
-        {/* Takip Et Bölümü */}
         <div>
           <h3 className="text-2xl mb-6 tracking-wider text-[#282828]">
             Follow Us
           </h3>
           <div className="flex gap-4 mb-8">
-            {/* Sosyal Medya İkonları */}
             <Link
               href="#"
               className="bg-[#3a4c39] text-white rounded-full w-10 h-10 flex items-center justify-center"
@@ -151,7 +148,6 @@ const Footer = () => {
 
       <div className="md:pt-4">
         <div className="max-w-[1400px] mx-auto px-[5%] grid grid-cols-1 md:grid-cols-3 gap-12">
-          {/* Yardım Metni */}
           <div>
             <h3 className="text-2xl mb-6 tracking-wider text-[#282828]">
               We're Here To Help!
@@ -162,14 +158,12 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Logo */}
           <div className="flex justify-center items-center">
             <h1 className="text-5xl font-bold tracking-tighter text-[#282828]">
               MentalHeal
             </h1>
           </div>
 
-          {/* Müşteri Desteği */}
           <div>
             <h3 className="text-2xl mb-6 tracking-wider text-[#282828]">
               Customer Support Hotline:
