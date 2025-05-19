@@ -49,20 +49,15 @@ const Technology = () => {
     if (!sliderRef.current) return;
 
     const { scrollLeft, scrollWidth, clientWidth } = sliderRef.current;
-    const scrollThreshold = 10;
 
-    if (scrollLeft + clientWidth >= scrollWidth - scrollThreshold) {
+    if (scrollLeft + clientWidth >= scrollWidth - 10) {
       sliderRef.current.scrollTo({
         left: 0,
         behavior: "smooth",
       });
     }
 
-    if (scrollLeft <= scrollThreshold) {
-      sliderRef.current.scrollTo({
-        left: scrollWidth - clientWidth,
-        behavior: "smooth",
-      });
+    if (scrollLeft <= 10) {
     }
   }, []);
 
@@ -176,10 +171,6 @@ const Technology = () => {
   );
 };
 
-const styles = `
-  .scrollbar-hide::-webkit-scrollbar {
-    display: none;
-  }
-`;
+
 
 export default Technology;
