@@ -77,7 +77,7 @@ const AboutUs = () => {
                 alt="Mental health illustration"
                 width={300}
                 height={400}
-                className="rounded-lg max-w-[250px]"
+                className="rounded-lg max-w-[150px] md:max-w-[250px]"
               />
               <div className="ml-6 mt-12">
                 <p className="text-[#444444] text-sm max-w-[250px] mb-12">

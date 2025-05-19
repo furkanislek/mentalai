@@ -23,7 +23,6 @@ const Technology = () => {
   const [scrollLeft, setScrollLeft] = useState(0);
   const [selectedButton, setSelectedButton] = useState("Emotion Detection");
 
-  // Fare sürükleme işlevselliği - memoized fonksiyon kullanımı
   const handleMouseDown = useCallback((e: React.MouseEvent) => {
     if (!sliderRef.current) return;
     setIsDragging(true);
@@ -112,12 +111,11 @@ const Technology = () => {
         alt="Mental health AI technology visualization"
         width={400}
         height={400}
-        className="rounded-lg z-10 max-w-[400px] md:max-w-[550px] mt-[-100px]"
+        className="rounded-lg z-10 max-w-[350px] md:max-w-[550px] mt-[-100px]"
         loading="eager"
         priority={true}
       />
 
-      {/* Özellik butonları - Slider */}
       <div className="w-full relative">
         <div
           ref={sliderRef}
@@ -148,6 +146,10 @@ const Technology = () => {
               </button>
             ))}
           </div>
+        </div>
+        <div className="md:hidden flex flex-row justify-between max-w-[100px] mx-auto">
+          <p>←</p>
+          <p>→</p>
         </div>
       </div>
 

@@ -69,8 +69,8 @@ const BlogCard = ({
       </div>
 
       {/* Kart Görseli */}
-      <div className="w-full h-[300px] p-64 relative">
-        <Image src={imageSrc} alt={imageAlt} fill className="object-cover p-12" />
+      <div className="w-full h-[300px] p-36 md:p-64 relative">
+        <Image src={imageSrc} alt={imageAlt} fill className="object-cover p-4 md:p-12" />
       </div>
     </div>
   );

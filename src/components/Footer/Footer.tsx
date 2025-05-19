@@ -4,9 +4,9 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#f2f2f2] font-[orbitron] py-16">
+    <footer className=" font-[orbitron] py-4 md:py-16">
       {/* Üst Kısım */}
-      <div className="max-w-[1400px] mx-auto px-[5%] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-20">
+      <div className="max-w-[1400px] mx-auto px-[5%] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12 md:mb-20">
         {/* Takip Et Bölümü */}
         <div>
           <h3 className="text-2xl mb-6 tracking-wider text-[#282828]">
@@ -149,7 +149,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className=" pt-4">
+      <div className="md:pt-4">
         <div className="max-w-[1400px] mx-auto px-[5%] grid grid-cols-1 md:grid-cols-3 gap-12">
           {/* Yardım Metni */}
           <div>
